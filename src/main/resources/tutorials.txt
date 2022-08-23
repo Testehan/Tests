@@ -1,0 +1,7 @@
+https://www.baeldung.com/junit-5
+    https://stackoverflow.com/questions/55719014/beforeall-method-as-non-static
+    https://stackoverflow.com/questions/49441049/junit-5-does-not-execute-method-annotated-with-beforeeach
+
+https://howtodoinjava.com/junit5/junit5-test-suites-examples/
+https://javabydeveloper.com/junit-5-dynamic-tests-testfactory-with-examples/
+
