@@ -61,10 +61,14 @@
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M7</version>
-        <!-- in case we want to run a specific suite
+        <!-- in case we want to run a specific suite -->
+<!--        <configuration>-->
+<!--          <test>com.testehan.suites.AllEmployeeUnitTestsSuite</test>-->
+<!--        </configuration>-->
+        <!-- in case we want to run a specific tag...or all but a tag (!slow = all but now slow tag tests) etc -->
         <configuration>
-          <test>com.testehan.suites.AllEmployeeUnitTests</test>
-        </configuration>-->
+          <groups>!slow</groups>
+        </configuration>
       </plugin>
     </plugins>
   </build>

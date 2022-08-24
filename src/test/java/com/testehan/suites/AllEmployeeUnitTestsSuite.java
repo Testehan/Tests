@@ -8,7 +8,7 @@ import org.junit.platform.suite.api.SuiteDisplayName;
 
 @Suite
 @SelectClasses(EmployeeTest.class)
-@IncludeTags("EmployeeTest")
+@IncludeTags("EmployeeRelatedTest")
 @SuiteDisplayName("Unit tests related to employee")
-public class AllEmployeeUnitTests {
+public class AllEmployeeUnitTestsSuite {
 }

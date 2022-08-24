@@ -1,4 +1,4 @@
-package com.testehan.tests;
+package com.testehan.tests.dynamic;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.parallel.Execution;
@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
 @TestMethodOrder(MethodOrderer.DisplayName.class)
-public class ExamplesOfDynamicTests {
+public class DynamicTests {
 
     @TestFactory
     DynamicTest singleDynamicTest() {

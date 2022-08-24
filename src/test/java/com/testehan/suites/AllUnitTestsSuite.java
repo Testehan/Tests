@@ -5,5 +5,5 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectPackages("com.testehan.tests")
-public class AllUnitTest {
+public class AllUnitTestsSuite {
 }

@@ -37,7 +37,7 @@ public class EmployeeTest {
 
     @DisplayName("A name for the test - this appears in IDEA instead of the test method name")
     @Test
-    @Tag("EmployeeTest")
+    @Tag("EmployeeRelatedTest")
     public void givenSalaryIsZero_whenYearlySalaryIsCalculated_zeroIsReturned(){
         // given
         this.employee.setSalary(0);
@@ -50,7 +50,7 @@ public class EmployeeTest {
     }
 
     @Test
-    @Tag("EmployeeTest")
+    @Tag("EmployeeRelatedTest")
     public void givenSalaryIsPositive_whenYearlySalaryIsCalculated_positiveTimes12IsReturned(){
         // given
         this.employee.setSalary(1000);
@@ -71,16 +71,6 @@ public class EmployeeTest {
 
 
         assertTrue(()-> 3>1, ()-> "3 is bigger than 1");
-    }
-
-    @Test
-    void groupAssertions() {
-        int[] numbers = {0, 1, 2, 3, 4};
-        assertAll("numbers",
-                () -> assertNotEquals(numbers[0], 1),
-                () -> assertEquals(numbers[3], 3),
-                () -> assertNotEquals(numbers[4], 1)
-        );
     }
 
     // Assumptions are used to run tests only if certain conditions are met. This is typically used for external
@@ -108,22 +98,6 @@ public class EmployeeTest {
                     assertEquals(2 + 2, 4);
                 }
         );
-    }
-
-    // Exception Testing
-    @Test
-    void shouldThrowException() {
-        Throwable exception = assertThrows(UnsupportedOperationException.class, () -> {
-            throw new UnsupportedOperationException("Not supported");
-        });
-        // in case we also want to check the message
-        assertEquals("Not supported", exception.getMessage());
-    }
-
-    @Test
-    void assertThrowsException() {
-        String str = null;
-        assertThrows(IllegalArgumentException.class, () -> Integer.valueOf(str));
     }
 
     @Test
