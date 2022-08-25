@@ -1,12 +1,10 @@
 package com.testehan.tests.extensions.postprocessor;
 
 import org.apache.logging.log4j.Logger;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith(LoggingExtension.class)
-@Tag("current")
 public class InjectLoggerTest {
     private Logger logger;
 
