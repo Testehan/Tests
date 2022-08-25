@@ -15,16 +15,18 @@ public class Employee {
         return name;
     }
 
-    public void setName(String name) {
+    public Employee setName(String name) {
         this.name = name;
+        return this;
     }
 
     public int getSalary() {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public Employee setSalary(int salary) {
         this.salary = salary;
+        return this;
     }
 
     public int calculateYearlySalary(){

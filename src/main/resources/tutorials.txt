@@ -21,3 +21,4 @@ https://javabydeveloper.com/junit-5-timeouts-fail-if-test-not-executed-within-ti
 https://javabydeveloper.com/junit-5-test-execution-order-with-examples/
 https://www.baeldung.com/junit-5-test-order
 
+https://www.baeldung.com/junit-5-parameters
