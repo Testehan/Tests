@@ -54,6 +54,14 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- needed for parameterized tests -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>5.9.0</version>
+      <scope>test</scope>
+    </dependency>
+
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
@@ -73,7 +81,7 @@
 <!--        </configuration>-->
         <!-- in case we want to run a specific tag...or all but a tag (!slow = all but now slow tag tests) etc -->
         <configuration>
-          <groups>current</groups>
+          <groups>!slow</groups>
         </configuration>
       </plugin>
     </plugins>
