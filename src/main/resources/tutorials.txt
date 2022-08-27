@@ -22,4 +22,10 @@ https://javabydeveloper.com/junit-5-test-execution-order-with-examples/
 https://www.baeldung.com/junit-5-test-order
 
 https://www.baeldung.com/junit-5-extensions
+    https://www.baeldung.com/junit-5-registerextension-annotation
     https://www.baeldung.com/junit-5-parameters
+
+https://www.baeldung.com/parameterized-tests-junit-5
+https://www.baeldung.com/junit-5-parallel-tests
+    junit.jupiter.execution.parallel.enabled = true
+    junit.jupiter.execution.parallel.mode.classes.default = concurrent       added in a properties file
