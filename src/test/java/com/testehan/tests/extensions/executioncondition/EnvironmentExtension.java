@@ -15,7 +15,7 @@ public class EnvironmentExtension implements ExecutionCondition {
     public ConditionEvaluationResult evaluateExecutionCondition(ExtensionContext context) {
 
         Properties props = new Properties();
-        try (InputStream input = new FileInputStream("src/test/resources/application.properties")) {
+        try (InputStream input = new FileInputStream("src/test/resources/com/testehan/tests/extensions/executioncondition/application.properties")) {
             props.load(input);
         } catch (IOException ex) {
             ex.printStackTrace();
