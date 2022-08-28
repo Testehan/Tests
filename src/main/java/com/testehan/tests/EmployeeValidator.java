@@ -25,6 +25,10 @@ public class EmployeeValidator {
         return ret;
     }
 
+    public static boolean isOdd(int salary) {
+        return salary % 2 != 0;
+    }
+
     private static boolean isNameValid(String candidate) {
         boolean ret = true;
         for (String illegalChar : ILLEGAL_NAME_CHARACTERS) {

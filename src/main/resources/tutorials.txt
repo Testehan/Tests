@@ -1,3 +1,5 @@
+https://junit.org/junit5
+
 https://www.baeldung.com/junit
 https://www.baeldung.com/junit-5
     https://stackoverflow.com/questions/55719014/beforeall-method-as-non-static
@@ -29,3 +31,21 @@ https://www.baeldung.com/parameterized-tests-junit-5
 https://www.baeldung.com/junit-5-parallel-tests
     junit.jupiter.execution.parallel.enabled = true
     junit.jupiter.execution.parallel.mode.classes.default = concurrent       added in a properties file
+
+https://www.digitalocean.com/community/tutorials/junit5-tutorial
+https://www.vogella.com/tutorials/JUnit/article.html
+
+https://www.vogella.com/tutorials/Hamcrest/article.html
+http://hamcrest.org/JavaHamcrest/javadoc/2.2/org/hamcrest/Matchers.html
+    all matchers from hamcrest 2.2
+https://www.baeldung.com/java-junit-hamcrest-guide
+
+    Other interesting libs :
+        https://truth.dev/
+        assertj
+
+https://www.vogella.com/tutorials/Mockito/article.html
+    Recent versions of Mockito can also mock static methods and final classes
+    https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
+
+    https://stackoverflow.com/questions/3824762/how-slow-is-too-slow-for-unit-tests

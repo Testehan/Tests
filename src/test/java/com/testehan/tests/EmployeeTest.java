@@ -101,7 +101,7 @@ public class EmployeeTest {
     }
 
     @Test
-    @Disabled("This is the new ignore")
+    @Disabled("This is the new ignore.This test is disabled because Karen works on the productive code")
     public void testDisabled(){
         System.out.println("This will not be printed because test is disabled.");
     }

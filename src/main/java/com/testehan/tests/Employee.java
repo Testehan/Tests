@@ -32,4 +32,12 @@ public class Employee {
     public int calculateYearlySalary(){
         return this.salary * 12;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }

@@ -1,4 +1,4 @@
-package com.testehan.tests.extensions.parameterized;
+package com.testehan.tests.extensions.parameterresolution;
 
 import com.testehan.tests.Employee;
 import com.testehan.tests.EmployeeValidator;
