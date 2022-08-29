@@ -47,5 +47,12 @@ https://www.baeldung.com/java-junit-hamcrest-guide
 https://www.vogella.com/tutorials/Mockito/article.html
     Recent versions of Mockito can also mock static methods and final classes
     https://github.com/mockito/mockito/wiki/Mockito-And-Private-Methods
-
+    https://javapointers.com/java/unit-test/difference-between-spy-and-mock-in-mockito/
     https://stackoverflow.com/questions/3824762/how-slow-is-too-slow-for-unit-tests
+
+https://www.baeldung.com/mockito-series
+    https://www.baeldung.com/mockito-mock-static-methods
+    https://www.baeldung.com/mockito-mocksettings
+    https://www.baeldung.com/java-mockito-when-vs-do
+    https://www.baeldung.com/mockito-fluent-apis
+        solution to mock builder classes for example
